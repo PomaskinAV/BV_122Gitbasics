@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 //#define SQUARE
@@ -27,7 +27,7 @@ void main()
 {
 	setlocale(LC_ALL, "Russian");
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 #ifdef SQUARE
 	for (int i = 0; i < n; i++)
 	{
@@ -158,7 +158,7 @@ void main()
 #endif // PLUS_MINUS2
 
 #ifdef CHESS_BOARD
-	setlocale(LC_ALL, "C"); //Âîçâðàùàåò êîäèðîâêó ïî óìîë÷àíèþ
+	setlocale(LC_ALL, "C"); //Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ ÐºÐ¾Ð´Ð¸Ñ€Ð¾Ð²ÐºÑƒ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
 /*for (int i = 0; i < 256; i++)
 {
 	cout << i << "\t" << (char)i << endl;
